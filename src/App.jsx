@@ -6,7 +6,7 @@ import './App.css'
 
 
 function App() {
-  let [counter,setCounter]=useState(0);
+  let [counter,setCounter]=useState(5);
   const addvalue=()=>{
     if(counter<20){
     setCounter(counter+1)
